@@ -8,7 +8,8 @@
     "npm": "9.1.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm i",
+    "test": "mocha",
     "client-install": "npm install --prefix client",
     "server": "nodemon server.js ",
     "client": "npm start --prefix client",
